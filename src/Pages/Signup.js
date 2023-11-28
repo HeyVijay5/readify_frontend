@@ -24,7 +24,7 @@ function Signup() {
   const signupCall = async (userData, dispatch) => {
     dispatch({ type: 'SIGNUP_START' });
     try {
-      const res = await axios.post('http://localhost:4000/api/auth/register', userData);
+      const res = await axios.post('https://readify-backend.onrender.com/api/auth/register', userData);
       dispatch({ type: 'SIGNUP_SUCCESS', payload: res.data });
       alert('User registered successfully!');
       history.push('/signin');
