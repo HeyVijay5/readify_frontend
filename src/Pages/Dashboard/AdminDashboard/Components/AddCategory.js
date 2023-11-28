@@ -4,7 +4,7 @@ import axios from 'axios';
 import { Dropdown } from 'semantic-ui-react';
 
 function AddCategory() {
-  const API_URL = 'http://localhost:4000/';
+  const API_URL = 'https://readify-backend.onrender.com/';
   const [isLoading, setIsLoading] = useState(false);
   const [categoryName, setCategoryName] = useState('');
   const [allCategories, setAllCategories] = useState([]);
