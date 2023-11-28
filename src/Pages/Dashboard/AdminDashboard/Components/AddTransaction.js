@@ -9,7 +9,7 @@ import moment from "moment"
 
 function AddTransaction() {
 
-    const API_URL = "http://localhost:4000/";
+    const API_URL = "https://readify-backend.onrender.com/";
     const [isLoading, setIsLoading] = useState(false)
     const { user } = useContext(AuthContext)
 
