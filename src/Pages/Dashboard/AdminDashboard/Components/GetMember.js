@@ -7,7 +7,7 @@ import moment from "moment"
 
 function GetMember() {
 
-    const API_URL = "http://localhost:4000/";
+    const API_URL = "https://readify-backend.onrender.com/";
     const [allMembersOptions, setAllMembersOptions] = useState(null)
     const [memberId, setMemberId] = useState(null)
     const [memberDetails, setMemberDetails] = useState(null)
