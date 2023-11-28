@@ -19,7 +19,7 @@ function MemberDashboard() {
   const [active, setActive] = useState("profile");
   const [sidebar, setSidebar] = useState(false);
 
-  const API_URL = "http://localhost:4000/";
+  const API_URL = "https://readify-backend.onrender.com/";
   const { user } = useContext(AuthContext);
   const [memberDetails, setMemberDetails] = useState(null);
 
